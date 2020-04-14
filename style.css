@@ -1,0 +1,75 @@
+body{
+  padding: 0 20vmin 0 20vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://s.aolcdn.com/dims-shared/dims3/GLOB/legacy_thumbnail/800x450/quality/85/https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/800x450/format/jpg/quality/85/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-03/10dc8f80-6313-11ea-be4b-4405f218b2c2");
+}
+
+h1{
+  color:white;
+}
+
+h2{
+  font-family: 'Girassol', serif;
+  margin-top: -1vmin;
+  color: black;
+}
+
+h3{
+  font-family: 'Anton';
+  color: white;
+  font-size: 12vmin;
+  margin-top: 1vmin;
+}
+
+
+
+#info{
+  font-size: 2.5vmin;
+}
+
+#subtitle{
+  font-size: 4vmin;
+}
+
+#contentGrid{
+  background-color:#c7c6c5;
+
+  height: 55vmin;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.contentItem{
+  display: flex;
+  flex-direction: column;
+  margin: 0 2vmin 0 2vmin;
+  padding: 2vmin;
+  height: 100%;
+
+}
+
+.contentTitle{
+  font-size: 3vmin;
+}
+
+.ImageContainer{
+  border-radius: 0.2vmin;
+  width: 25vmin;
+  height: 25vmin;
+  overflow: hidden;
+}
+
+.ImageContainer img {
+  width: 100%;
+  border-radius: 0.25vmin;
+}
+
+.info{
+  padding: 0;
+  margin-bottom: 4vmin;
+}
